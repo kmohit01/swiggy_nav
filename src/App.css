@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar.css */
+.navbar {
+  width: 1357px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 black;
+  /* background-color: #ff4500; */
+  color: white;
+}
+
+.logo:hover {
+  transform: scale(1.2); /* Increase size on hover */
+}
+
+.right{
+  /* border: 2px solid green; */
+  margin-left: 100px;
+  height: 50px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.other_downside li{
+  list-style: none;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  /* color: black; */
+}
+
+.other_downside li a{
+  color: black;
+}
+
+.other_downside li img:hover{
+  transform: scale(1.2);
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.nav-links {
+  width: 800px;
+  /* border: 2px solid black; */
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.nav-links li {
+  /* border: 2px solid white; */
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav-links li img:hover{
+  transform: scale(1.2); /* Increase size on hover */
+}
+
+li img{
+  height: 23px;
+  width: 23px;
+  width: auto;
+}
+
+.nav-links li a {
+  /* color: white; */
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+
+.other_downside li a:hover{
+  color: rgb(255, 69, 1);
+  transform: scale(1.2);
+}
+
+.nav-links li a:hover{
+  color: rgb(255, 69, 1);
+  transform: scale(1.1);
+}
+
+/* .search-bar {
+  /* Add styles for the search bar if needed */
+
